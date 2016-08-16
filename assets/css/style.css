@@ -1,0 +1,81 @@
+body{
+	background: url(../images/background-img.png);
+}
+
+.topHeader{
+	font-size:2em;
+	font-weight: bold;
+	color: white;
+	background-color: orange;
+	margin: 5px;
+	float: left;
+	padding: 20px 5px;
+}
+
+.midInfo{
+	float: left;
+	color: #5BC980;
+	background-color: #FBE6CD;
+	margin: 5px;
+	padding: 20px 5px 50px 5px;
+	clear: both;
+
+}
+
+.compGuessBox{
+	font-size: 1.5em;
+	float:left;
+	color: purple;
+	background-color: #5BC980;
+	margin: 5px;
+	padding: 5px 100px 70px 5px;
+	clear: left;
+}
+
+#winsLossBox{
+	float:left;
+	background-color: #4AFDF8;
+	margin: 5px;
+	padding: 10px 5px 31px 5px;
+}
+
+.winLossPTag, .winsContent{
+	margin-bottom: 5px;
+}
+
+.crystalImages{
+	width: 50px;
+	height: 50px;
+	margin: 5px 2.5px;
+	padding: 5px;
+	background-color: white;
+	float: left;
+}
+
+.imgOne{
+	clear: left;
+}
+
+.scoreBox{
+	width: 165px;
+	height: 100px;
+	margin: 5px 2.5px;
+	background: #2CA194;
+	float: left;
+	clear: left;
+}
+
+.totalScoreText{
+	float: left;
+	background-color: #2CA194;
+	color: white;
+	margin: 5px 2.5px;
+	padding: 2.5px 40px 5px 5px;
+	clear: left;
+}
+
+.scoreText{
+	font-size: 1.5em;
+	margin: 5px;
+	color: white;
+}
