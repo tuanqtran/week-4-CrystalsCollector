@@ -1,54 +1,87 @@
+/*
+================================================
+			 Body background image.
+================================================
+*/
 body{
 	background: url(../images/background-img.png);
 }
 
+/*
+================================================
+ Increased font size, changed color/background
+        for the text Crystals Collector!
+================================================
+*/
 .topHeader{
 	font-size:2em;
 	font-weight: bold;
 	color: white;
 	background-color: orange;
 	margin: 5px;
-	float: left;
 	padding: 20px 5px;
+	float: left;
 }
 
+/*
+================================================
+	   Changed color font/background for
+	          the game instructions
+================================================
+*/
 .midInfo{
-	float: left;
 	color: #5BC980;
 	background-color: #FBE6CD;
 	margin: 5px;
 	padding: 20px 5px 50px 5px;
+	float: left;
 	clear: both;
 
 }
 
+/*
+================================================
+	Container of the computer guess number.
+================================================
+*/
 .compGuessBox{
 	font-size: 1.5em;
-	float:left;
 	color: purple;
 	background-color: #5BC980;
 	margin: 5px;
 	padding: 5px 100px 70px 5px;
+	float:left;
 	clear: left;
 }
 
+/*
+================================================
+		  Styling for the wins/losses.
+================================================
+*/
 #winsLossBox{
-	float:left;
 	background-color: #4AFDF8;
 	margin: 5px;
 	padding: 10px 5px 31px 5px;
+	float:left;
 }
 
 .winLossPTag, .winsContent{
 	margin-bottom: 5px;
 }
 
+/*
+================================================
+	    Size adjustment for images and
+	        background coloring.
+================================================
+*/
 .crystalImages{
 	width: 50px;
 	height: 50px;
+	background-color: white;
 	margin: 5px 2.5px;
 	padding: 5px;
-	background-color: white;
 	float: left;
 }
 
@@ -56,24 +89,40 @@ body{
 	clear: left;
 }
 
+/*
+================================================
+	  Font/background color adjustment for
+		    total score word text.
+================================================
+*/
+.totalScoreText{
+	color: white;
+	background-color: #2CA194;
+	margin: 5px 2.5px;
+	padding: 2.5px 40px 5px 5px;
+	float: left;
+	clear: left;
+}
+
+/*
+================================================
+	   Container box for the score sum box.
+================================================
+*/
 .scoreBox{
 	width: 165px;
 	height: 100px;
-	margin: 5px 2.5px;
 	background: #2CA194;
-	float: left;
-	clear: left;
-}
-
-.totalScoreText{
-	float: left;
-	background-color: #2CA194;
-	color: white;
 	margin: 5px 2.5px;
-	padding: 2.5px 40px 5px 5px;
+	float: left;
 	clear: left;
 }
 
+/*
+================================================
+	Font changes towards the sum score text.
+================================================
+*/
 .scoreText{
 	font-size: 1.5em;
 	margin: 5px;
