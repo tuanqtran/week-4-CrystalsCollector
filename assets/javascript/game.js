@@ -167,5 +167,5 @@ $(".crystalImages").on("click", function(){
 	lossCounter = ("Losses: " + losses);
 	document.querySelector(".lossContent").innerHTML = lossCounter;
 
-})
+});
 
